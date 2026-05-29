@@ -10,7 +10,7 @@ class Program
 
         if (!esNumero)
         {
-            Console.WriteLine("Por favor, ingrese un número válido para la edad.");
+            Console.WriteLine("Por favor, ingrese un numero valido para la edad.");
         }
         else
         {
