@@ -28,7 +28,7 @@ class Program
             }
             else if (opcion == 2)
             {
-                Console.Write("Ingrese losgrados Fahrenheit: ");
+                Console.Write("Ingrese los grados Fahrenheit: ");
 
                 string textoFahrenheit = Console.ReadLine();
                 double fahrenheit = double.Parse(textoFahrenheit);
