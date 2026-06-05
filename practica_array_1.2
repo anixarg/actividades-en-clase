@@ -1,0 +1,34 @@
+﻿using System;
+
+class program
+{
+    static void Main()
+    {
+        int[] numeros = { 2, 6, 4, 5, 3, 7, 1, 8 };
+
+        int mayor = numeros[0];
+        int menor = numeros[0];
+
+        int indiceMayor = 0;
+        int indiceMenor = 0;
+
+        for (int i = 1; i < numeros.Length; i++)
+        {
+            if (numeros[i] > mayor)
+            {
+                mayor = numeros[i];
+                indiceMayor = i;
+            }
+
+            if (numeros[i] < menor) 
+            {
+                menor = numeros[i];
+                indiceMenor = i;
+            }
+        }
+
+        Console.WriteLine($"el mayor: {mayor} en la posicion {indiceMayor}");
+        Console.WriteLine($"el menor:{menor} en la posicion {indiceMenor}");
+
+    }
+}
